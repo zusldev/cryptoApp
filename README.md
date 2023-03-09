@@ -1,7 +1,9 @@
 # Astro + Svelte Example
 
 ```
-[Created with astro + svelte](https://cryptoappsvelte.netlify.app/)
+[Created with astro + svelte]
+
+https://cryptoappsvelte.netlify.app/ 
 ```
 
 
