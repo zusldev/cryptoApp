@@ -1,7 +1,7 @@
 # Astro + Svelte Example
 
 ```
-[Created with astro + svelte]
+[Created with astro + svelte and tailwind]
 
 https://cryptoappsvelte.netlify.app/ 
 ```
