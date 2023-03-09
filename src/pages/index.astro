@@ -12,7 +12,8 @@ import ApiRequest from "../components/ApiRequest.svelte";
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <style>
             html {
-                background: linear-gradient(to bottom, #ffffff 50%, #f0f0f0);
+                background: linear-gradient(to top, #ffffff 40%, #f0f0f0);
+                
             }
             body {
                 font-family: system-ui;
@@ -24,12 +25,20 @@ import ApiRequest from "../components/ApiRequest.svelte";
         </style>
     </head>
     <body>
-        <main>
-            <div class="flex justify-center">
+        <main class="flex flex-col min-h-screen">
+            <div class="flex justify-center top-0 z-10 lg:mb-14">
                 <Header client:visible />
             </div>
-            <div class="flex items-center justify-center h-screen">
+            <div class="flex-1 flex items-center justify-center lg:mb-14">
                 <ApiRequest client:visible />
+            </div>
+            <div class="flex items-end justify-center py-4 sm:text-2xl">
+                Made by:
+                <a
+                    href="https://github.com/zusldev"
+                    class="bg-gradient-to-r from-green-400 to-blue-500 text-transparent bg-clip-text ml-1 "
+                    >@zusldev</a
+                >
             </div>
         </main>
     </body>
