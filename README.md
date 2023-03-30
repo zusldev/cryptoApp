@@ -1,11 +1,9 @@
-# Astro + Svelte Example
 
-```
-[Created with astro + svelte and tailwind]
 
-https://cryptoappsvelte.netlify.app/ 
-```
 
+## https://cryptoappsvelte.netlify.app/ 
+
+### Astro + Svelte
 
 
 This example showcases Astro working with [Svelte](https://svelte.dev/).
